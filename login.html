@@ -135,7 +135,7 @@
 
                         if(!keepLoggedIn){
                             sessionStorage.setItem('user', JSON.stringify(user));
-                            window.location ="home.html";
+                            window.location ="index.html";
 
                             //save to remains active if the browser is open. WQill save in session Storage.
                         }
@@ -143,7 +143,7 @@
                         else{
                             localStorage.setItem('keepLoggedIn', 'yes');
                             localStorage.setItem('user', JSON.stringify(user));
-                            window.location('home.html');
+                            window.location('index.html');
                         }
 
 
